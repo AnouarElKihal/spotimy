@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./files/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    margin: 25px;
+}
+
+.input-text {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.input-text input {
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 13px 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#searchBtn {
+    background-color: #19e68c;
+    color: #fff;
+    border: none;
+    padding: 13px 20px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+#searchBtn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#searchBtn:hover i {
+    color: #19e68c;
+}
+
+.songName {
+    padding: 25px;
+    text-align: center;
+}
+
+.songCover img {
+    height: 200px;
+    width: 200px;
+    background-image: url(./files/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timeline {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.timeline hr {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.timeline div {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline p {
+    font-size: 10px;
+}
+
+#pauseandstartBtn, #indietroBtn, #avantiBtn {
+    background-color: #fff;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+#pauseandstartBtn:hover {
+    background-color: #19e68c;
+    color: #fff;
+}
+
+#indietroBtn, #avantiBtn {
+    background: none;
+    padding: 16px 20px;
+    color: #fff;
+}
+
+#indietroBtn:hover, #avantiBtn:hover {
+    color: #19e68c;
+}
+
+#indietroBtn i, #avantiBtn i {
+    font-size: 17px;
+}
+
+.openSong {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.openSong a {
+    padding: 13px 20px;
+    background-color: #19e68c;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s ease;
+    font-weight: bold;
+}
+
+.openSong a:hover {
+    background-color: #fff;
+    color: #19e68c;
+}
+
+
+

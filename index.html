@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotimy</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./files/spotimyLogo.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/8d7e2d832c.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <audio type="audio/mpeg" id="music"></audio>
+        <div class="container">
+            <div class="input-text">
+                <input type="text" placeholder="Search Song..." id="inputText">
+                <button id="searchBtn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="songName">
+                <h1 id="songName">SONG NAME - ARTIST</h1>
+            </div>
+
+            <div class="songCover">
+                <img id="songCover" alt="">
+            </div>
+
+            <div class="timeline">
+                <hr>
+                <div>
+                    <p id="timing">00:00</p>
+                    <p id="musicDuration">0:00</p>
+                </div>
+            </div>
+            
+            <div class="buttons">
+                <button id="indietroBtn"><i class="fa-solid fa-backward"></i></button>
+                <button id="pauseandstartBtn"><i id="faIcon" class="fa-solid fa-play"></i></button>
+                <button id="avantiBtn"><i class="fa-solid fa-forward"></i></button>
+            </div>
+
+            <div class="openSong">
+                <a id="openSong" target="_blank">Open on Spotify</a>
+            </div>
+
+            <script src="script.js"></script>
+        </div>
+
+    </body>
+</html>
+
