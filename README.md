@@ -7,7 +7,7 @@ including audio, title, song cover and duration. The Spotify Scraper API offers 
 1. Create a RAPID API Account
 2. Subscribe to Test:
 > ![api_screen](https://github.com/AnouarElKihal/spotimy/assets/68613907/a9f0dae7-f678-43c6-aa76-dc5366a908eb)
-3. Replace YOUR_SPOTIFY_SCRAPER_API_KEY in the javascript file:
+3. Replace YOUR_SPOTIFY_SCRAPER_API_KEY in the JavaScript file:
 ```javascript
 const options = {
   method: 'GET',
