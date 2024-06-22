@@ -19,6 +19,6 @@ const options = {
 ```
 
 ## Live Application
-You can find it online at this url: [spotimy.eabug.repl.co](https://spotimy.eabug.repl.co)
+Online website: [spotimy](https://627f5fd8-e068-416c-b426-1517a012b2ed-00-11es3m2ylovz9.janeway.replit.dev/)
 > ![spotimyScreen](https://github.com/AnouarElKihal/spotimy/assets/68613907/fc11ebb1-5adb-46f1-ba43-34da58fc7609)
 
