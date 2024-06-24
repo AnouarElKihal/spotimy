@@ -19,10 +19,10 @@ async function fetchData(URL) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'YOUR_SPOTIFY_SCRAPER_API_KEY',
+            'X-RapidAPI-Key': '524bd23822msha64da3493635e1dp124219jsn6e6fb6b6f4dd', // Replace with 'YOUR_SPOTIFY_SCRAPER_API_KEY'
             'X-RapidAPI-Host': 'spotify-scraper.p.rapidapi.com'
         }
-    }
+    };
     try {
         fetch(URL, options)
         .then(response => response.json())
