@@ -19,6 +19,6 @@ const options = {
 ```
 
 ## Live Application
-Online website: [spotimy](https://627f5fd8-e068-416c-b426-1517a012b2ed-00-11es3m2ylovz9.janeway.replit.dev/)
+Online website: [spotimy](https://anouarelkihal.github.io/spotimy/)
 > ![spotimyScreen](https://github.com/AnouarElKihal/spotimy/assets/68613907/fc11ebb1-5adb-46f1-ba43-34da58fc7609)
 
